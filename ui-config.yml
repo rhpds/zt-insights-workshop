@@ -1,0 +1,27 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-registration"
+      label: "Registration"
+      solveButton: true
+    - name: "02-insights-login"
+      label: "Insights Login"
+      solveButton: true
+    - name: "03-navigation"
+      label: "Navigation"
+      solveButton: true
+    - name: "04-review"
+      label: "Review"
+      solveButton: true
+    - name: "05-remediation"
+      label: "Remediation"
+      solveButton: true
+    - name: "06-verify"
+      label: "Verify"
+      solveButton: true
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty

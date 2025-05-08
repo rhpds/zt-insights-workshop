@@ -1,0 +1,9 @@
+---
+name: modules
+version: master
+
+asciidoc:
+  attributes:
+    lab_name: "Resolving issues with Red Hat Insights Advisor"
+    release-version: master
+    page-pagination: true
