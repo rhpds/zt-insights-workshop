@@ -1,8 +1,14 @@
+:imagesdir: ../assets/images
+
+= Red Hat Insights Registration
+
+== Registration
+
 Let's connect the system to Red Hat Insights with the rhc command.
 
 [source,bash,run]
 ----
-rhc connect --org=12451665 --activationkey=12-5-22-instruqt
+rhc connect --organization 12451665 --activation-key 12-5-22-instruqt
 ----
 
 From the above output, you can observe that the system has been
