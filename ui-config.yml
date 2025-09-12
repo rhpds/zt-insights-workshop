@@ -9,16 +9,19 @@ antora:
     - name: "02-insights-login"
       label: "Insights Login"
       solveButton: false
-    - name: "03-navigation"
+    - name: "03-upload-latest-info"
+      label: "Upload latest info"
+      solveButton: false
+    - name: "04-navigation"
       label: "Navigation"
       solveButton: false
-    - name: "04-review"
+    - name: "05-review"
       label: "Review"
       solveButton: false
-    - name: "05-remediation"
+    - name: "06-remediation"
       label: "Remediation"
       solveButton: false
-    - name: "06-verify"
+    - name: "07-verify"
       label: "Verify"
       solveButton: false
 
