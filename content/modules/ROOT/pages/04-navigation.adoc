@@ -17,12 +17,11 @@ available for that host. Click on the _Inventory_ link on the left
 navigation bar. Then, click on _Systems_.
 
 .Navigate to Inventory
-image::insights-homepage-inventory-highlight.png[Navigate to
-Inventory]
+image::insights-homepage-inventory-highlight.png[Navigate to Inventory]
 
 Once you are on the Inventory page, find and click your hostname to pull up information for your individual machine.
 
-Recall in a previous step, you found your machine hostname with the `+hostname+` command.
+Recall in a previous step, you found your machine hostname with the `+hostname+` command in the terminal.
 
 .View your machine
 image::inventory-homepage-v2.png[View your machine]
@@ -32,7 +31,3 @@ NOTE: Your host may not be the first one listed, as depicted in the
 graphic above. You may find it necessary to use the _Find system by
 name_ search function at the top of the list of hosts to more quickly
 find your system.
-
-
-NOTE: If you do not see your host in the inventory list, it may be
-necessary to re-run the `+insights-client+` command on your RHEL host.

@@ -14,4 +14,4 @@ insights-client
 .insights-client output
 image::insights_client_upload.png[insights-client output]
 
-If you have made any changes to your system and you'd like to check if they have triggered any new Advisor recommendations, run this command.
+Run this command if you have made any changes to your system and you'd like to check if they have triggered any new Advisor recommendations.
