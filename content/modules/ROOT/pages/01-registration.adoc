@@ -11,6 +11,9 @@ Let's connect the system to Red Hat Insights with the rhc command.
 rhc connect --organization 12451665 --activation-key 12-5-22-instruqt
 ----
 
+.rhc connect output
+image::rhc_connect_output.png[rhc connect output]
+
 From the above output, you can observe that the system has been
 successfully registered with Red Hat Insights. As part of the
 registration, the machine also uploads a report to Red Hat Insights so
@@ -39,3 +42,5 @@ Next, lets ensure that your system can run remediation playbooks from Red Hat In
 dnf install -y rhc-worker-playbook
 ----
 
+.rhc worker playbook installation output
+image::rhc_worker_playbook_installation.png[rhc worker playbook installation output]
