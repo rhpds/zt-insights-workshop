@@ -1,20 +1,8 @@
-In most Red Hat Enterprise Linux 9 installations, the insights-client
-software will be installed by default. However, the minimal package set
-does not include installing the insights-client package and other
-versions of Red Hat Enterprise Linux, while the package is available,
-will likely need it installed. Install the insights-client package on
-the system.
+Let's connect the system to Red Hat Insights with the rhc command.
 
 [source,bash,run]
 ----
-dnf -y install insights-client
-----
-
-Next, register your system with Red Hat Insights.
-
-[source,bash,run]
-----
-insights-client --register
+rhc connect --org=12451665 --activationkey=12-5-22-instruqt
 ----
 
 From the above output, you can observe that the system has been
@@ -29,15 +17,19 @@ For future reference, make note of your system hostname.
 hostname
 ----
 
-____
-_NOTE:_ Your hostname will be different than the one listed in the
-output above
-____
+NOTE: Your hostname will be different than the one listed in the output above.
 
-At any time in the future, you can get information about Insights
-registration by using the `+--status+` option to `+insights-client+`.
+At any time in the future, you can get information about Insights registration by using the `+--status+` option to `+rhc+`.
 
 [source,bash,run]
 ----
-insights-client --status
+rhc status
 ----
+
+Next, lets ensure that your system can run remediation playbooks from Red Hat Insights.
+
+[source,bash,run]
+----
+dnf install -y rhc-worker-playbook
+----
+
