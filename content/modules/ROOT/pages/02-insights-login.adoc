@@ -1,21 +1,19 @@
-____
-_NOTE:_ To make the inline images larger, expand this window.
-image:../assets/slider.png[Menu Slider]
-____
+:imagesdir: ../assets/images
+
+= Red Hat Insights Login
+
+== Login
 
 Click the hyperlink or browse to
 https://cloud.redhat.com[cloud.redhat.com] to access Red Hat’s software
 as a service web portal.
 
-____
-_NOTE:_ This will open an additional browser window or tab.
-____
+NOTE: This will open an additional browser window or tab.
 
-Click the _Log in to the console_ button.
+Click the Log in to the console button.
 
 .cloud.redhat.com Login
-image::../assets/cloud.redhat.com-homepage-v2.png[cloud.redhat.com
-Login]
+image::cloud.redhat.com-homepage-v2.png[cloud.redhat.com Login]
 
 Login using the credentials below:
 
@@ -34,14 +32,14 @@ Redhat1!
 ----
 
 .Red Hat Login screen
-image::../assets/redhat-login-01.png[Red Hat Login screen]
+image::redhat-login-01.png[Red Hat Login screen]
 
 .Red Hat Password screen
-image::../assets/redhat-login-02.png[Red Hat Password screen]
+image::redhat-login-02.png[Red Hat Password screen]
 
 Once you are logged in using the credentials provided above, navigate to
 _Red Hat Enterprise Linux_ inside the _Services_ drop-down, under
 _Platform_.
 
 .cloud.redhat.com Homepage
-image::../assets/rhel-menu.png[cloud.redhat.com Homepage]
+image::rhel-menu.png[cloud.redhat.com Homepage]

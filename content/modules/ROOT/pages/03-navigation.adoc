@@ -3,7 +3,7 @@ you will see a summary dashboard of all systems registered to your
 organization.
 
 .Insights Homepage
-image::../assets/insights-homepage-v2.png[Insights Homepage]
+image::insights-homepage-v2.png[Insights Homepage]
 
 For the purposes of this exercise, you are working with a single machine
 registered to Insights and we will focus on the Advisor recommendations
@@ -11,7 +11,7 @@ available for that host. Click on the _Inventory_ link on the left
 navigation bar. Then, click on _Systems_.
 
 .Navigate to Inventory
-image::../assets/insights-homepage-inventory-highlight.png[Navigate to
+image::insights-homepage-inventory-highlight.png[Navigate to
 Inventory]
 
 Once you are on the Inventory page, find and click your hostname to pull
@@ -19,7 +19,7 @@ up information for your individual machine. Recall in a previous step
 you found your machine hostname with the `+hostname+` command.
 
 .View your machine
-image::../assets/inventory-homepage-v2.png[View your machine]
+image::inventory-homepage-v2.png[View your machine]
 
 ____
 _NOTE:_ Your host may not be the first one listed, as depicted in the

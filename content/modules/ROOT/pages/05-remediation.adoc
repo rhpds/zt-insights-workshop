@@ -14,7 +14,7 @@ cat /etc/ssh/sshd_config | grep PermitRootLogin
 ----
 
 .Fixed SSH
-image::../assets/sshrootlogininsightsremedy.png[Fixed SSH]
+image::sshrootlogininsightsremedy.png[Fixed SSH]
 
 Force a Red Hat Insights checkin so that a new batch of system data is
 uploaded to Insights.
