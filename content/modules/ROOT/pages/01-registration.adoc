@@ -34,13 +34,3 @@ At any time in the future, you can get information about Insights registration b
 ----
 rhc status
 ----
-
-Next, lets ensure that your system can run remediation playbooks from Red Hat Insights.
-
-[source,bash,run]
-----
-dnf install -y rhc-worker-playbook
-----
-
-.rhc worker playbook installation output
-image::rhc_worker_playbook_installation.png[rhc worker playbook installation output]

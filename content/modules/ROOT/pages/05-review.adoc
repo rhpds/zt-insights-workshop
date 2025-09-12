@@ -1,3 +1,11 @@
+:imagesdir: ../assets/images
+
+= Red Hat Insights Review
+
+== Review
+
+
+
 After selecting your system from the Inventory page and reviewing some
 overall data about it, click on the _Advisor_ tab to view the Red Hat
 Insights data that applies to this host.
@@ -7,20 +15,17 @@ image::host-homepage-v2.png[Host Insights]
 
 There may be several recommendations listed for this system. Scroll down
 through the list until you reach the one entitled _Decreased security:
-OpenSSH PermitRootLogin settings_
+OpenSSH config permissions_
 
-.SSH Root Login Decreased Vulnerability
-image::sshrootlogininsights.png[SSH Root Login Decreased
-Vulnerability]
+.Decreased security: OpenSSH config permissions
+image::opensshconfigpermissions.png[Decreased security: OpenSSH config permissions]
 
-From the _Detected issues_ section of the recommendation, you can see
-that this recommendation is being triggered by the machine running with
-the `+PermitRootLogin+` setting set to `+yes+`.
+From the _Detected issues_ section of the recommendation, you can see that this recommendation is being triggered by the machine running with incorrect permissions on the `+/etc/ssh/sshd_config+` file.
 
-.NetworkManager Insight issue
-image::sshrootlogininsightsdetectedissue.png[NetworkManager
-Insight issue]
+.Incorrect permissions on /etc/ssh/sshd_config
+image::incorrect_permissions_on_etc_ssh_sshd_config.png[Incorrect permissions on /etc/ssh/sshd_config]
 
-In the _Steps to resolve_ section of the recommendation, step-by-step
-guidance on how to resolve the issue is provided. In this case, we will
-follow the recommendation to set `+PermitRootLogin no+`.
+In the _Steps to resolve_ section of the recommendation, step-by-step guidance on how to resolve the issue is provided.
+
+.Steps to resolve
+image::fix_permissions_sshd.png[Steps to resolve]

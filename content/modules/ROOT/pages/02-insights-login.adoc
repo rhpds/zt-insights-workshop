@@ -38,8 +38,7 @@ image::redhat-login-01.png[Red Hat Login screen]
 image::redhat-login-02.png[Red Hat Password screen]
 
 Once you are logged in using the credentials provided above, navigate to
-_Red Hat Enterprise Linux_ inside the _Services_ drop-down, under
-_Platform_.
+_Red Hat Enterprise Linux_.
 
 .cloud.redhat.com Homepage
-image::rhel-menu.png[cloud.redhat.com Homepage]
+image::insights_for_rhel.png[cloud.redhat.com Homepage]

@@ -1,3 +1,9 @@
+:imagesdir: ../assets/images
+
+= Red Hat Insights Navigation
+
+== Navigation
+
 Now that you have opened Red Hat Insights for Red Hat Enterprise Linux,
 you will see a summary dashboard of all systems registered to your
 organization.
@@ -14,21 +20,19 @@ navigation bar. Then, click on _Systems_.
 image::insights-homepage-inventory-highlight.png[Navigate to
 Inventory]
 
-Once you are on the Inventory page, find and click your hostname to pull
-up information for your individual machine. Recall in a previous step
-you found your machine hostname with the `+hostname+` command.
+Once you are on the Inventory page, find and click your hostname to pull up information for your individual machine.
+
+Recall in a previous step, you found your machine hostname with the `+hostname+` command.
 
 .View your machine
 image::inventory-homepage-v2.png[View your machine]
 
-____
-_NOTE:_ Your host may not be the first one listed, as depicted in the
+
+NOTE: Your host may not be the first one listed, as depicted in the
 graphic above. You may find it necessary to use the _Find system by
 name_ search function at the top of the list of hosts to more quickly
 find your system.
-____
 
-____
-_NOTE:_ If you do not see your host in the inventory list, it may be
+
+NOTE: If you do not see your host in the inventory list, it may be
 necessary to re-run the `+insights-client+` command on your RHEL host.
-____

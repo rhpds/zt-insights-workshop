@@ -1,3 +1,10 @@
+:imagesdir: ../assets/images
+
+== Verify
+
 Finally, reload the system page in your web browser. Look to verify that
 the recommendation is no longer displayed for your system.
-image:remediation-complete.png[Remediation completed]
+
+image::remediation-complete.png[Remediation completed]
+
+If you would like, you can also remediate the remaining issues.
