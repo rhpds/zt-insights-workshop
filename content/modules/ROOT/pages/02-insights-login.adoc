@@ -28,7 +28,7 @@ Password:
 
 [source,bash]
 ----
-Redhat1!
+RHEListhebestlinux1!
 ----
 
 .Red Hat Login screen
