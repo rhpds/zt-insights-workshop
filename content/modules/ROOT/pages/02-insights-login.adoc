@@ -21,14 +21,14 @@ Login:
 
 [source,bash]
 ----
-rhel-df93
+rhel-8bf8
 ----
 
 Password:
 
 [source,bash]
 ----
-RHEListhebestlinux1!
+Redhat1!
 ----
 
 .Red Hat Login screen
