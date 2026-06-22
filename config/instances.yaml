@@ -6,6 +6,7 @@ virtualmachines:
     bootloader: efi
     cores: 1
     image_size: "40G"
+    register_satellite: false
     tags:
       - key: "AnsibleGroup"
         value: "bastions"
